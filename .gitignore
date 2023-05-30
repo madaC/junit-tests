@@ -11,12 +11,17 @@
 .mtj.tmp/
 
 # Package Files #
+*.jar
 *.war
 *.nar
 *.ear
 *.zip
 *.tar.gz
 *.rar
+
+target/*
+!target/junit-tests-1.0-SNAPSHOT-tests.jar
+!target/junit-tests-1.0-SNAPSHOT.jar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
