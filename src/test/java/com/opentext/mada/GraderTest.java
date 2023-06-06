@@ -52,9 +52,9 @@ public class GraderTest {
     }
 
     @Test
-    public void parameterCase(String param) {
+    public void parameterCase() {
         Grader grader = new Grader();
-        assertEquals(param,grader.determineLetterGrade(80));
+        assertEquals(System.getProperty("param"),String.valueOf(grader.determineLetterGrade(80)));
 
     }
 }
