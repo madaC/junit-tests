@@ -50,4 +50,11 @@ public class GraderTest {
             grader.determineLetterGrade(-1);
         });
     }
+
+    @Test
+    public void parameterCase(String param) {
+        Grader grader = new Grader();
+        assertEquals(param,grader.determineLetterGrade(80));
+
+    }
 }
