@@ -2,6 +2,8 @@ package com.opentext.mada;
 
 import org.junit.Test;
 
+import java.sql.SQLOutput;
+
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
@@ -56,5 +58,11 @@ public class GraderTest {
         Grader grader = new Grader();
         assertEquals(System.getProperty("param"),String.valueOf(grader.determineLetterGrade(80)));
 
+    }
+
+    @Test
+    public void environmentCase() {
+        Grader grader = new Grader();
+        System.out.println(System.getProperty("ENV"));
     }
 }
