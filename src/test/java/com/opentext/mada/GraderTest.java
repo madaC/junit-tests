@@ -65,4 +65,10 @@ public class GraderTest {
         Grader grader = new Grader();
         System.out.println(System.getProperty("ENV"));
     }
+
+    @Test
+    public void dataDrivenProperties() {
+        Grader grader = new Grader();
+        System.out.println(System.getProperty("DataSet1"));
+    }
 }
