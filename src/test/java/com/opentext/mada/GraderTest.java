@@ -73,6 +73,8 @@ public class GraderTest {
     public void predefinedParameters() {
         Grader grader = new Grader();
         System.out.println(System.getProperty("#sctm_keywords"));
+        System.out.println(System.getProperty("SILK Test Name"));
+
     }
 
 }
