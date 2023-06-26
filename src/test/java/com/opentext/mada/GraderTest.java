@@ -68,4 +68,11 @@ public class GraderTest {
         Grader grader = new Grader();
         System.out.println(System.getProperty("DataSet1"));
     }
+
+    @Test
+    public void predefinedParameters() {
+        Grader grader = new Grader();
+        System.out.println(System.getProperty("#sctm_keywords"));
+    }
+
 }
