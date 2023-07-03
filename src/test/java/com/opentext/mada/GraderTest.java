@@ -77,4 +77,14 @@ public class GraderTest {
 
     }
 
+    @Test
+    public void systemParameters() {
+        Grader grader = new Grader();
+        System.out.println(System.getProperty("#sctm_execdef_name"));
+        System.out.println(System.getProperty("#sctm_product"));
+        System.out.println(System.getProperty("#sctm_test_name"));
+        System.out.println(System.getProperty("#sctm_test_id"));
+
+    }
+
 }
