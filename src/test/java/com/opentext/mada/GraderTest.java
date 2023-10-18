@@ -66,13 +66,13 @@ public class GraderTest {
     }
 
     @Test
-    public void dataDrivenProperties() {
+    public void $data_Driven_Properties() {
         Grader grader = new Grader();
         System.out.println(System.getProperty("DataSet1"));
     }
 
     @Test
-    public void predefinedParameters() {
+    public void _predefinedParameters() {
         Grader grader = new Grader();
         System.out.println(System.getProperty("#sctm_keywords"));
         System.out.println(System.getProperty("SILK Test Name"));
